@@ -1,0 +1,125 @@
+body {
+	background: transparent;
+	font-family: 'Nunito', sans-serif;
+	margin-bottom: 0;
+}
+
+.blurb h2 {
+	color: #EA1C2C;
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+.blurb p{
+	color: #f498b8;
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+#mainNavbar .navbar-brand{
+	font-family: 'Sigmar One', cursive;
+}
+
+#mainNavbar .nav-link {
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+}
+
+#mainNavbar .nav-link:hover {
+	color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand{
+	color: #EA1C2C;
+	font-size: 1.5rem;
+}
+
+#headingGroup span {
+	color: #EA1C2C;
+}
+
+#headingGroup h1 {
+	font-weight: 100;
+	font-size: 4rem;
+}
+/* This scrolled class uses jquery*/
+.navbar.scrolled{
+	background: #ececfb;
+	transition: background 500ms;
+}
+
+@media (max-width: 1256px){
+   #headingGroup h1 {
+	  font-weight: 100;
+	  font-size: 3rem;
+}
+.blurb h2{
+	font-size: 2rem;
+}
+}
+
+.con {
+	position: relative;
+}
+
+.conin {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+
+.event li {
+  list-style-type: none;
+}
+.event li a {
+	color: #E8E8FA;
+	text-decoration: none;
+}
+.event li a:hover {
+	color: #EA1C2C;
+}
+
+.agenda {
+	display: inline-block;
+    text-align:left;
+}
+
+.agenda li {
+	padding-left:8px;
+	font-style: italic;
+}
+.container {
+	text-align: center;
+}
+.btn{
+	border-radius: 40px;
+}
+.jumbotron {
+	height: 300px;
+}
+.icon {
+	float: right;
+}
